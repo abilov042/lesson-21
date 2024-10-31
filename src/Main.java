@@ -25,7 +25,10 @@ public class Main {
         int[] arr = {1,2,3,4};
 
         //printArr(arr, arr.length - 1);
-        printInt1(10);
+        //printInt1(10);
+
+
+        m1(1);
 
     }
 
@@ -44,7 +47,6 @@ public class Main {
 
         System.out.println(index);
     }
-
     public static void printInt2(int index){
 
         System.out.println(index);
@@ -52,8 +54,6 @@ public class Main {
         if(index > 0){
             printInt1(index - 1);
         }
-
-
     }
 
 
@@ -82,6 +82,32 @@ public class Main {
 //    public static void getSound(Animal animal){
 //        animal.sound();
 //    }
+
+
+    public static void m1(int n){
+
+        m2(n + 1);
+        System.out.println(n);
+    }
+
+    public static void m2(int n){
+
+        m3(n + 1);
+        System.out.println(n);
+    }
+    public static void m3(int n){
+
+        m4(n + 1);
+        System.out.println(n);
+    }
+    public static void m4(int n){
+
+        m5(n + 1);
+        System.out.println(n);
+    }
+    public static void m5(int n){
+        System.out.println(n);
+    }
 
 
 
